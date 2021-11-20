@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { App } from './components';
+// import { App } from './components';
 import reportWebVitals from './reportWebVitals';
+import { CommentModal } from './components/CommentModal';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <CommentModal title={'test'} />
   </React.StrictMode>,
   document.getElementById('root')
 );
